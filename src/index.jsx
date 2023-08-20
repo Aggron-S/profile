@@ -27,5 +27,4 @@ class Page extends React.Component {
     root.render(<Page/>);
   }
 }
-
 Page.renderPage();

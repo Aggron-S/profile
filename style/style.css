@@ -101,6 +101,14 @@ header span {
 }
 .goals .h1 { text-align: center; }
 
+/*----------- My Projects -----------*/
+.projects .proj-ico {
+  width: 100%;
+  filter: drop-shadow(5px 5px 6px #9f9fa1);
+  border-radius: 16px;
+  cursor: pointer;
+}
+
 /*----------- Expertise Content -----------*/
 .expertise .exp-ico {
   width: 70%;
