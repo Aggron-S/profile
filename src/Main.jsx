@@ -66,11 +66,18 @@ export default class Main extends React.Component {
               <div className="col">
                 <h1 className="text-center fw-bolder pb-5 my-txt-black abt-me-txt">About Me<br/>
                   <small className="text-start lead">
-                    I am Warren, an Information Technology student who are a big fan of
+                    I am Warren, an Information Technology student who is passionately fascinated by the 
+                    ever-evolving world of web development. My journey in this field began with a deep 
+                    curiosity and a desire to innovate web solutions that are not just timely and relevant, 
+                    but truly transformative. Web development is more than just a skill for me, it's a calling. 
+                    It is about embracing challenges, solving problems, and most importantly, bringing innovative 
+                    solutions to the forefront. Whether it's optimizing performance, enhancing user experiences, or 
+                    ensuring robust security, I am driven to find creative and efficient ways to address these needs.
+                    {/* I am Warren, an Information Technology student who are a big fan of
                     cybersecurity experts which keeps our internet security as what it is today.
                     Cybersecurity bears a major challenge to the experts across the globe, and I am willing
                     to take my part to help solve that matter, fight online crimes, develop and implement mitigation 
-                    strategies as well as to learn more about threats which affects the way internet works.
+                    strategies as well as to learn more about threats which affects the way internet works. */}
                   </small>
                 </h1>
               </div>

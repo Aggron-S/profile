@@ -46,7 +46,7 @@ export default class Header extends React.Component {
               <div className="col text-start mx-auto my-my-1">
                 <div className="welcome-txt">
                   <h1 className="display-3 fw-bolder text-light">Hi! I'm Warren</h1>
-                  <h4 className="h4 fw-bold fst-italic my-txt-semi-light">Aspiring Innovator, Ready to Protect Network Sector.</h4>
+                  <h4 className="h4 fw-bold fst-italic my-txt-semi-light">Ready to Bring Innovative Web Solutions.{/*Aspiring Innovator, Ready to Protect Network Sector.*/}</h4>
                 </div>
               </div>
               <div className="col mt-sm-3"> 
