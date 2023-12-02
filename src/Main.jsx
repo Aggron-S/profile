@@ -219,7 +219,7 @@ export default class Main extends React.Component {
               {this.state.projects.length > 0 && (
                 <section className="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5">
                   {this.state.projects.map(proj => (
-                    <a key={proj.id} href="#my-proj" className="col d-flex flex-column justify-content-center align-items-center text-decoration-none text-reset outline-0">
+                    <a key={proj.id} href={proj.project_url} target="_blank" rel="noopener noreferrer" className="col d-flex flex-column justify-content-center align-items-center text-decoration-none text-reset outline-0">
                       <img 
                         src={proj.imageUrls[proj.project_name]} 
                         className="proj-ico" 
