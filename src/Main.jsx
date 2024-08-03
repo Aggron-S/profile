@@ -73,11 +73,6 @@ export default class Main extends React.Component {
                     It is about embracing challenges, solving problems, and most importantly, bringing innovative 
                     solutions to the forefront. Whether it's optimizing performance, enhancing user experiences, or 
                     ensuring robust security, I am driven to find creative and efficient ways to address these needs.
-                    {/* I am Warren, an Information Technology student who are a big fan of
-                    cybersecurity experts which keeps our internet security as what it is today.
-                    Cybersecurity bears a major challenge to the experts across the globe, and I am willing
-                    to take my part to help solve that matter, fight online crimes, develop and implement mitigation 
-                    strategies as well as to learn more about threats which affects the way internet works. */}
                   </small>
                 </h1>
               </div>
@@ -303,10 +298,10 @@ export default class Main extends React.Component {
 
                           <div className="col">
                             <p>
-                              This is the second programming language that I have learned and is the easiest one for me in terms of code implementation,
-                              due to its simpler syntax. It gave me a lot of flexibility when it comes to programming considering the short amount of time
-                              given to accomplish task. I am able to develop an application as a prerequisite to the subject "Advanced Computer Programming"
-                              during my second year in college using Python. 
+                              This is the second programming language that I have learned and is easier for me in terms of code implementation,
+                              due to its simpler syntax. It gave me a lot of flexibility when it comes to programming considering the short 
+                              amount of time given to accomplish task. I am able to develop an application as a prerequisite to the subject 
+                              "Advanced Computer Programming" during my second year in college using Python. 
                             </p>
                           </div>
                         </div>
@@ -345,9 +340,9 @@ export default class Main extends React.Component {
                           </div>
                           <div className="col">
                             <p>
-                              For me, Java is better than C++ due to the fact that it uses automatic pointers, reducing complexity especially for
-                              beginners. When I started programming, I don't really understand how pointers work and it gave me a lot of headache especially
-                              when there is a deadline on the way and that's when Java start to save me from frustration.
+                              For me, Java simplifies code implementation due to the fact that it manages object references and memory automatically, 
+                              reducing complexity especially for beginners. When I started programming, I don't really understand how pointers work and it gave me a 
+                              lot of headache especially when there is a deadline on the way and that's when Java start to save me from frustration.
                             </p>
                           </div>
                         </div>
@@ -465,9 +460,8 @@ export default class Main extends React.Component {
                           </div>
                           <div className="col">
                             <p>
-                              I am currently learning this language and I would love to explore further so that I can enhance my website capabilities.
-                              Better functionality as well as interactivity is one of my future goals in developing a website and I can achieve that with
-                              the help of JavaScript.
+                              JavaScript has helped me to build a more dynamic websites. It introduced me to the world of dynamic programming, 
+                              and enabled me to make interactive web applications.
                             </p>
                           </div>
                         </div>
@@ -481,7 +475,7 @@ export default class Main extends React.Component {
                   </div>
                 </div>
               </div>
-              
+
             </section>
           </div>
         </div>
