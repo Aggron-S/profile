@@ -1,8 +1,7 @@
 import React from "react";
 import {
-  aboutMe2, coding, workout, pizza, sleeping, finishStudies,
-  goodJob, earnMoney, helpFamily, buyWhatIWant, cpp, python,
-  java, html, css, js
+  aboutMe2, websiteDevelopment, apiIntegration, businessProcessAutomation, softwareDevelopment,
+  cpp, python, java, html, css, js
 } from "./js/imports";
 
 // Firebase Imports
@@ -57,7 +56,7 @@ export default class Main extends React.Component {
     return (
       <main>
         {/* About Me */}
-        <div className="about-me bg-med-gray" id="abt-me">
+        <div className="about-me bg-med-gray" id="about-me">
           <div className="container py-3">
             <section className="row row-cols-1 row-cols-sm-1 row-cols-lg-2">
               <div className="col">
@@ -66,10 +65,10 @@ export default class Main extends React.Component {
               <div className="col">
                 <h1 className="text-center fw-bolder pb-5 my-txt-black abt-me-txt">About Me<br/>
                   <small className="text-start lead">
-                    I am Warren, an Information Technology student who is passionately fascinated by the 
-                    ever-evolving world of web development. My journey in this field began with a deep 
-                    curiosity and a desire to innovate web solutions that are not just timely and relevant, 
-                    but truly transformative. Web development is more than just a skill for me, it's a calling. 
+                    I am Warren, a Software Specialist with experience helping businesses overcome technical 
+                    challenges and unlock growth. My journey in this field began with a deep curiosity and a 
+                    desire to innovate web solutions that are not just timely and relevant, but truly transformative.
+                    Web development is more than just a skill for me, it's a calling. 
                     It is about embracing challenges, solving problems, and most importantly, bringing innovative 
                     solutions to the forefront. Whether it's optimizing performance, enhancing user experiences, or 
                     ensuring robust security, I am driven to find creative and efficient ways to address these needs.
@@ -80,148 +79,77 @@ export default class Main extends React.Component {
           </div>
         </div>
 
-        {/* Hobbies */}
-        <div className="hobbies my-bg-color-primary" id="hb">
+
+        {/* Services Offered */}
+        <div className="hobbies my-bg-color-primary" id="services-offered">
           <div className="container pt-5">
-            <h1 className="text-center text-light fw-bolder">Hobbies</h1>
+            <h1 className="text-center text-light fw-bolder">Services Offered</h1>
             <section className="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-4 mt-5">
               <div className="col mb-5">
-                <img className="img-fluid mx-auto d-block my-hobby-icon-properties" src={coding} alt=""/>
-                <h5 className="h5 text-center text-light mt-3 my-hobby-txt">Love to code</h5>
+                <img className="img-fluid mx-auto d-block my-hobby-icon-properties" src={websiteDevelopment} alt=""/>
+                <h5 className="h5 text-center text-light mt-3 my-hobby-txt">Website Development</h5>
               </div>
               <div className="col mb-5">
-                <img className="img-fluid mx-auto d-block my-hobby-icon-properties" src={workout} alt=""/>
-                <h5 className="h5 text-center text-light mt-3 my-hobby-txt">Love to do workout</h5>
+                <img className="img-fluid mx-auto d-block my-hobby-icon-properties" src={softwareDevelopment} alt=""/>
+                <h5 className="h5 text-center text-light mt-3 my-hobby-txt">Software Development</h5>
               </div>
               <div className="col mb-5">
-                <img className="img-fluid mx-auto d-block my-hobby-icon-properties" src={pizza} alt=""/>
-                <h5 className="h5 text-center text-light mt-3 my-hobby-txt">Love to eat</h5>
+                <img className="img-fluid mx-auto d-block my-hobby-icon-properties" src={apiIntegration} alt=""/>
+                <h5 className="h5 text-center text-light mt-3 my-hobby-txt">Secure API Integration</h5>
               </div>
               <div className="col mb-5">
-                <img className="img-fluid mx-auto d-block my-hobby-icon-properties" src={sleeping} alt=""/>
-                <h5 className="h5 text-center text-light mt-3 my-hobby-txt">Love to sleep</h5>
+                <img className="img-fluid mx-auto d-block my-hobby-icon-properties" src={businessProcessAutomation} alt=""/>
+                <h5 className="h5 text-center text-light mt-3 my-hobby-txt">Business Process Automation</h5>
               </div>
             </section>
           </div>
         </div>
         
 
-        {/* Goals/Plan */}
-        <div className="goals bg-color-lawrencium " id="gl">
-          <div className="container py-5">
-            <h1 className="text-center text-light pt-3 fw-bolder">Goals / Plan</h1>
-
-            <section className="row row-cols-1">
-              {/* <!-- 1st Goal --> */}
-              <div className="col first-goal-col">
-                <div className="row row-cols-1 row-cols-md-1 row-cols-lg-2 ">
-                  <div className="col first my-5">
-                    <img className="img-fluid float-start my-goal-img-properties pb-5" src={finishStudies} alt=""/>
-                  </div>
-                  <div className="col sec my-5">
-                    <h1 className="h1 text-light fw-bolder pb-5"> Finish Studies <br/> 
-                      <small className="h6 lead">
-                        Nothing can make my parents very proud of me than finishing my studies. It is also like an achievement to them
-                        given that having a quality education is hard to attain. You have to exert a lot of time and effort as well as tons of money
-                        just to give your child better quality education he/she deserves. For me, it is worth all my time and effort to see myself
-                        accomplished studying.
-                      </small>
-                    </h1>
-                  </div>
-                </div>
-              </div>
-
-              {/* <!-- 2nd Goal --> */}
-              <div className="col sec-goal-col">
-                <div className="row row-cols-1 row-cols-md-1 row-cols-lg-2">
-                  <div className="col first my-5">
-                    <h1 className="h1 text-light fw-bolder pb-5"> Get a Good Job <br/>
-                      <small className="h6 lead">
-                        Having a good and stable job is necessary for me to help my family in terms of providing their daily needs as well as to buy
-                        whatever I want. Also, preparing for future life events are essential and that is when having a stable job can be really beneficial.
-                      </small>
-                    </h1>
-                  </div>
-                  <div className="col sec my-5">
-                    <img className="img-fluid float-end my-goal-img-properties pb-5" src={goodJob} alt=""/>
-                  </div>
-                </div>  
-              </div>
-
-              {/* <!-- 3rd Goal --> */}
-              <div className="col third-goal-col">
-                <div className="row row-cols-1 row-cols-md-1 row-cols-lg-2">
-                  <div className="col first my-5">
-                    <img className="img-fluid float-start my-goal-img-properties pb-5" src={earnMoney} alt=""/>
-                  </div>
-                  <div className="col sec my-5">
-                    <h1 className="h1 text-light fw-bolder pb-5"> Earn and Save Money <br/>
-                      <small className="h6 lead">
-                        Being able to respond in times of family crisis is one of my goals in life and I can be able to achieve that with the help
-                        of enough money in my savings. Earning a money takes a lot of hardwork and thus, saving a portion of it everytime can be really helpful
-                        in times of family crisis.
-                      </small>
-                    </h1>
-                  </div>
-                </div>
-              </div>
-
-              {/* <!-- 4th Goal --> */}
-              <div className="col fourth-goal-col">
-                <div className="row row-cols-1 row-cols-md-1 row-cols-lg-2">
-                  <div className="col first my-5">
-                    <h1 className="h1 text-light fw-bolder pb-5"> Help My Family <br/>
-                      <small className="lead">
-                        To help my family is one of my top priorities that's why I am pursuing my studies. I am truly aware of all the hardships my parents
-                        had faced in life just to provide our daily needs and wants. That is why it is necessary for me to bring back their love and kindness
-                        to us, their children by means of studying hard, finish studies and get a good job for us to have a good life in the future.
-                      </small>
-                    </h1>
-                  </div>
-                  <div className="col sec my-5">
-                    <img className="img-fluid float-end my-goal-img-properties pb-5" src={helpFamily} alt=""/>
-                  </div>
-                </div>
-              </div>
-
-              {/* <!-- 5th Goal --> */}
-              <div className="col fifth-goal-col">
-                <div className="row row-cols-1 row-cols-md-1 row-cols-lg-2">
-                  <div className="col first my-5">
-                    <img className="img-fluid float-start my-goal-img-properties pb-5" src={buyWhatIWant} alt=""/>
-                  </div>
-                  <div className="col sec my-5">
-                    <h1 className="h1 text-light fw-bolder pb-5"> Buy Whatever I Want <br/>
-                      <small className="lead">
-                        Most of us wants to have things which we usually don't have in life or never experienced to have any. Being able to buy what I
-                        want is also an achievement to me. Happiness brought by things which I can afford for me is irreplaceable and inspires me to work
-                        even better for my future.
-                      </small>
-                    </h1>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-        </div>
-
         {/* Projects */}
         {this.state.hasData && (
-          <div className="projects bg-med-gray" id="my-proj">
+          <div className="projects bg-med-gray" id="my-projects">
             <div className="container py-5">
               <h1 className="text-center my-txt-black pt-3 fw-bolder">My Projects</h1>
 
               {this.state.projects.length > 0 && (
                 <section className="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5">
                   {this.state.projects.map(proj => (
-                    <a key={proj.id} href={proj.project_url} target="_blank" rel="noopener noreferrer" className="col d-flex flex-column justify-content-center align-items-center text-decoration-none text-reset outline-0">
-                      <img 
-                        src={proj.imageUrls[proj.project_name]} 
-                        className="proj-ico" 
-                        alt="proj-img" 
-                      />
+                    <div key={proj.id} className="col d-flex flex-column justify-content-center align-items-center text-decoration-none text-reset outline-0">
+                      <div className="proj-wrapper position-relative w-100">
+                        <img 
+                          src={proj.imageUrls[proj.project_name]} 
+                          className="proj-ico w-100" 
+                          alt="proj-img" 
+                        />
+                        {/* Overlay Content */}
+                        <div className="overlay-content d-flex flex-column justify-content-between">
+                          <p className="proj-desc small fw-semibold mb-2">
+                            {proj.project_description}
+                          </p>
+                          <a href={proj.project_url} target="_blank" rel="noopener noreferrer" className="align-self-end text-primary text-decoration-none small">
+                            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                              <g id="SVGRepo_iconCarrier">
+                                <g id="Interface / External_Link">
+                                  <path 
+                                    id="Vector" 
+                                    d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" 
+                                    stroke="#1ABC9C" 
+                                    stroke-width="2" 
+                                    stroke-linecap="round" 
+                                    stroke-linejoin="round"
+                                  />
+                                </g>
+                              </g>
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+
                       <h5 className="h5 text-center my-txt-black mt-3 mb-5 my-hobby-txt">{proj.project_name}</h5>
-                    </a>
+                    </div>
                   ))}
                 </section>
               )}
@@ -230,7 +158,7 @@ export default class Main extends React.Component {
         )}
 
         {/* <!-- Expertise --> */}
-        <div className="expertise my-bg-color-secondary" id="exp">
+        <div className="expertise my-bg-color-secondary" id="expertise">
           <div className="container py-5">
             <h1 className="text-center text-white mb-5 fw-bolder">Expertise</h1>
             <section className="row row-cols-1 row-cols-sm-3 row-cols-md-6 mt-5">
@@ -479,6 +407,7 @@ export default class Main extends React.Component {
             </section>
           </div>
         </div>
+      
       </main>
     );
   }

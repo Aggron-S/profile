@@ -30,11 +30,10 @@ export default class Header extends React.Component {
                   <img className="img-fluid page-logo-properties me-2" src={wLogo} alt="page-logo"/>Warren Catilo
                 </a>
                 <a className="nav-link p-3 me-3" href="#">Home</a>
-                <a className="nav-link p-3 me-3" href="#abt-me">About Me</a>
-                <a className="nav-link p-3 me-3" href="#hb">Hobbies</a>
-                <a className="nav-link p-3 me-3" href="#gl">Goals</a>
-                <a className="nav-link p-3 me-3" href="#my-proj">My Projects</a>
-                <a className="nav-link p-3 me-3" href="#exp">Expertise</a>
+                <a className="nav-link p-3 me-3" href="#about-me">About Me</a>
+                <a className="nav-link p-3 me-3" href="#services-offered">Services Offered</a>
+                <a className="nav-link p-3 me-3" href="#my-projects">My Projects</a>
+                <a className="nav-link p-3 me-3" href="#expertise">Expertise</a>
               </div>
               <span className="mt-3" onClick={this.#openNav}>&#9776;</span>
             </div>
